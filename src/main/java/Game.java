@@ -14,7 +14,9 @@ public class Game {
         g.findMeCity("");
     }
 
-    public Game() { }
+    public Game() {
+        updateCities();
+    }
 
     private void updateCities(){
         cities = new ArrayList<>();
